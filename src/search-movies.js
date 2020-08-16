@@ -12,13 +12,15 @@ export default function SearchMovies() {
 
     const url = `https://api.themoviedb.org/3/search/movie?api_key=6d77462feebffd1cb0268b1d1ba67f80&language=en-US&query=${query}&page=1&include_adult=false`;
 
-    try {
-      const res = await fetch(url);
-      const data = await res.json();
+    if (query !== "") {
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
 
-      setMovies(data.results);
-    } catch (err) {
-      console.log(err);
+        setMovies(data.results);
+      } catch (err) {
+        console.log(err);
+      }
     }
   };
 
