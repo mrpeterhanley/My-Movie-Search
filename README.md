@@ -1,4 +1,4 @@
-This project was built from the James Q Quick Scrimba Tutorial "Build a React Movie Search App" https://scrimba.com/course/greactmovie/
+<strong>This project was built from the James Q Quick Scrimba Tutorial "Build a React Movie Search App" https://scrimba.com/course/greactmovie/ </strong>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
