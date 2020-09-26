@@ -93,6 +93,7 @@ small {
 footer {
   text-align: center;
   font-size: 1.2em;
+  padding-top: 20px;
 }
 
 @media (min-width: 768px) {
