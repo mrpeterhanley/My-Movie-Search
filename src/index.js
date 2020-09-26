@@ -10,6 +10,9 @@ class Main extends React.Component {
       <div className="container">
         <h1 className="title">My Movie Search</h1>
         <SearchMovies />
+        <footer>
+          Made with &hearts; in Melbourne, Australia by Peter Hanley
+        </footer>
       </div>
     );
   }

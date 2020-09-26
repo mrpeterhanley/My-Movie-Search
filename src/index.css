@@ -90,6 +90,11 @@ small {
   display: block;
 }
 
+footer {
+  text-align: center;
+  font-size: 1.2em;
+}
+
 @media (min-width: 768px) {
   .form {
     grid-template-columns: auto 1fr auto;

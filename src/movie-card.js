@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MovieCard({ movie }) {
   return (
-    <div className="card" key={movie.id}>
+    <div className="card" >
       <img
         className="card--image"
         src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
